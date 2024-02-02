@@ -2,9 +2,15 @@
     .container {
         max-width: 700px;
     }
+    .main {
+        background: url(../img/bg1.jpg) center left -200px/cover no-repeat;
+    }
 }
 
 @media (max-width: 767px) {
+    .main {
+        background: url(../img/bg1.jpg) center left -290px/cover no-repeat;
+    }
     .promo {
         align-items: center;
     }
@@ -39,6 +45,10 @@
 }
 
 @media (max-width: 575px) {
+    .main {
+        background: url('../img/bg1.jpg') center left -475px/cover no-repeat;
+    }
+
     .header {
         &__info {
             margin-top: 20px;
