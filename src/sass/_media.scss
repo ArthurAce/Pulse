@@ -42,6 +42,10 @@
         padding: 100px 0 100px 30px;
     }
 
+    .carousel {
+        max-width: 550px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 575px) {
@@ -106,6 +110,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
+    }
+
+    .carousel {
+        max-width: 250px;
         margin: 0 auto;
     }
 }
